@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -285,10 +286,13 @@ table {
 .mt-10 {
   margin-top: 40px; }
 
+main {
+  font-family: 'Quattrocento', serif; }
+
 .container {
   background: lightblue;
   max-width: 1140px;
-  height: 3000px;
+  height: auto;
   margin-left: auto;
   margin-right: auto; }
   @media screen and (max-width: 960px) {
@@ -409,10 +413,12 @@ table {
   align-self: baseline; }
 
 .h-navbar {
-  position: fixed;
-  z-index: 10;
-  /* 	display:flex;*/
-  width: 100%; }
+  min-height: 40px;
+  font-family: "Roboto Slab", serif; }
+  .h-navbar nav {
+    position: fixed;
+    z-index: 10;
+    width: 100%; }
   .h-navbar ul {
     display: flex;
     width: 100%;
