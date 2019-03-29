@@ -16,7 +16,7 @@ $sides: "left" "bottom" "right" "top";
 
 	@each $item in $sides {
 		.p#{str-slice($item,1,1)}-#{$i}{
-			@include paddings($i*2 px,$item);
+			@include paddings($i*2px,$item);
 		}
 	}
 }
@@ -25,7 +25,7 @@ $sides: "left" "bottom" "right" "top";
 
 	@each $item in $sides {
 		.m#{str-slice($item,1,1)}-#{$i}{
-			@include margins($i*4 px,$item);
+			@include margins($i*4px,$item);
 		}
 	}
 }
@@ -158,11 +158,13 @@ $sides: "left" "bottom" "right" "top";
 }
 
 
+
+
 .h-navbar{
 	position:fixed;
 	z-index:10;
-	display:flex;
-	width:100%;
+/* 	display:flex;*/
+	width:100%; 
 	
 	ul{	
 		display:flex;
