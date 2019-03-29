@@ -94,9 +94,55 @@ $colWidth: (60px);
 	align-items: stretch;
 }
 
-nav {
-	a {
-		@include paddings(10%);
-		@extend %navbar-anchors;
+.ai-bl{
+	align-items: baseline;
+}
+
+.as-fs{
+	align-self: flex-start;
+}
+
+.as-fe{
+	align-self: flex-end;
+}
+
+.as-c{
+	align-self: center;
+}
+
+.as-st{
+	align-self: stretch;
+}
+
+.as-bl{
+	align-self: baseline;
+}
+
+// nav {
+// 	a {
+// 		@include paddings(10%);
+// 		@extend %navbar-anchors;
+// 	}
+// }
+
+
+.h-navbar{
+	ul{
+		display:flex;
+		justify-content: space-around;
+		align-items: center;
+		li{
+			flex-grow: 1;
+			display: flex;
+			justify-content: center;
+			a{
+				width:100%;
+				display: flex;
+				justify-content: center;
+				padding-top:10px;
+				padding-bottom:10px;
+				text-decoration: none;
+			}
+		}
 	}
 }

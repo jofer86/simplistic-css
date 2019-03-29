@@ -45,9 +45,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-nav a {
-  border-radius: 10px; }
-
 .container {
   width: 960px;
   height: auto;
@@ -139,7 +136,38 @@ nav a {
 .ai-st {
   align-items: stretch; }
 
-nav a {
-  padding: 10%; }
+.ai-bl {
+  align-items: baseline; }
+
+.as-fs {
+  align-self: flex-start; }
+
+.as-fe {
+  align-self: flex-end; }
+
+.as-c {
+  align-self: center; }
+
+.as-st {
+  align-self: stretch; }
+
+.as-bl {
+  align-self: baseline; }
+
+.h-navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .h-navbar ul li {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; }
+    .h-navbar ul li a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-decoration: none; }
 
 /*# sourceMappingURL=simplistic.css.map */
