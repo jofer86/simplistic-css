@@ -1,0 +1,17 @@
+$mar-side:(10px);
+$colWidth: (60px);
+
+.grid {
+	width:960px;
+}
+.grid-1{
+	width:$colWidth;
+	margin-left: $mar-side;
+	margin-right: $mar-side;
+}
+
+.grid-2{
+	width:&$colWidth*2;
+	
+}
+
