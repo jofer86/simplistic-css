@@ -1,4 +1,5 @@
-.html
-.scss
-.map
-.scssc
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+*.html
