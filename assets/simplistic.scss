@@ -40,7 +40,7 @@ main{
 
 
 .container {
-	background: lightblue;
+
 	max-width: 1140px;
 	height: auto;
 	margin-left: auto;
@@ -205,6 +205,7 @@ main{
 
 .button {
 	display: flex;
+	justify-content: center;
 	padding: 12px 42px;
 	margin:10px;
 	min-width: 80px;
@@ -215,10 +216,15 @@ main{
 	font-size: calcem(15px);
 	border-radius: 2px;
 	transition-property: color,background-color;
-	transition: 1s ease-in-out;
+	transition: .5s linear;
 
 	&:hover {
 		background-color: lightgray;
 		color: white;
 	}
+}
+
+.jumbo{
+	background-image: url("http://lorempixel.com/1200/600");
+	position:relative;
 }
