@@ -3,6 +3,13 @@
 $mar-side:(10px);
 $colWidth: (60px);
 
+@mixin paddings($value){
+	padding: $value;
+}
+
+%navbar-anchors {
+	border-radius: 10px;
+}
 
 
 
@@ -31,6 +38,26 @@ $colWidth: (60px);
 	display:flex;
 }
 
+.f-grow-1 {
+	flex-grow: 1;
+}
+
+.f-grow-2 {
+	flex-grow: 2;
+}
+
+.f-column{
+	flex-direction: column;
+}
+
+.f-column-r {
+	flex-direction: column-reverse;
+}
+
+.f-row-r{
+	flex-direction: row-reverse;
+}
+
 .jc-c{
 	justify-content: center;
 }
@@ -49,4 +76,27 @@ $colWidth: (60px);
 
 .jc-b{
 	justify-content: space-between;
+}
+
+.ai-fs{
+	align-items: flex-start;
+}
+
+.ai-fe{
+	align-items: flex-end;
+}
+
+.ai-c{
+	align-items: center;
+}
+
+.ai-st{
+	align-items: stretch;
+}
+
+nav {
+	a {
+		@include paddings(10%);
+		@extend %navbar-anchors;
+	}
 }
