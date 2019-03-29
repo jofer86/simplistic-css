@@ -12,6 +12,14 @@ $sides: "left""bottom""right""top";
 	margin-#{$side}: $value;
 }
 
+@mixin padding($value) {
+	padding: $value;
+}
+
+@mixin margin($value) {
+	margin: $value;
+}
+
 @for $i from 1 to 11 {
 
 	@each $item in $sides {
@@ -22,11 +30,24 @@ $sides: "left""bottom""right""top";
 }
 
 @for $i from 1 to 11 {
+		.p-#{$i} {
+			@include padding($i*2px);
+		}
+}
+
+
+@for $i from 1 to 11 {
 
 	@each $item in $sides {
 		.m#{str-slice($item,1,1)}-#{$i} {
 			@include margins($i*4px, $item);
 		}
+	}
+}
+
+@for $i from 1 to 11 {
+	.m-#{$i} {
+		@include margin($i*2px);
 	}
 }
 
@@ -66,8 +87,16 @@ main{
 .row {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 10px;
+	grid-column: span 12;
 }
+
+@for $i from 1 to 10{
+	.gutter-#{$i} {
+		grid-gap: $i*5px;
+	}
+}
+
+
 
 @for $i from 1 to 13 {
 	.col-#{$i} {
@@ -215,13 +244,13 @@ main{
 	text-decoration: none;
 	font-size: calcem(15px);
 	border-radius: 2px;
-	transition-property: color,background-color;
-	transition: .5s linear;
+	 transition-property: color,background-color;
+	transition: .5s ease-in-out;
 
 	&:hover {
 		background-color: lightgray;
 		color: white;
-	}
+	} 
 }
 
 .jumbo{
