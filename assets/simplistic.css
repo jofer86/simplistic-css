@@ -286,9 +286,11 @@ table {
   margin-top: 40 px; }
 
 .container {
+  background: lightblue;
   max-width: 1140px;
-  height: auto;
-  margin: 10px auto 0 auto; }
+  height: 3000px;
+  margin-left: auto;
+  margin-right: auto; }
   @media screen and (max-width: 960px) {
     .container {
       width: 100%; } }
@@ -406,23 +408,29 @@ table {
 .as-bl {
   align-self: baseline; }
 
-.h-navbar ul {
+.h-navbar {
+  position: fixed;
+  z-index: 10;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  @media screen and (max-width: 540px) {
-    .h-navbar ul {
-      flex-direction: column; } }
-  .h-navbar ul li {
-    flex-grow: 1;
+  width: 100%; }
+  .h-navbar ul {
     display: flex;
-    justify-content: center; }
-    .h-navbar ul li a {
-      width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center; }
+    @media screen and (max-width: 540px) {
+      .h-navbar ul {
+        flex-direction: column; } }
+    .h-navbar ul li {
+      flex-grow: 1;
       display: flex;
-      justify-content: center;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      text-decoration: none; }
+      justify-content: center; }
+      .h-navbar ul li a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none; }
 
 /*# sourceMappingURL=simplistic.css.map */

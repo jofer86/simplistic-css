@@ -34,12 +34,13 @@ $sides: "left" "bottom" "right" "top";
 	border-radius: 10px;
 }
 
-
-
 .container {
+	background:lightblue;
 	max-width: 1140px;
-	height: auto;
-	margin: 10px auto 0 auto;
+	height: 3000px;
+	margin-left: auto;
+	margin-right:auto;
+
 	@media screen and (max-width:960px) {
 		width:100%;
 	}
@@ -158,8 +159,14 @@ $sides: "left" "bottom" "right" "top";
 
 
 .h-navbar{
-	ul{
+	position:fixed;
+	z-index:10;
+	display:flex;
+	width:100%;
+	
+	ul{	
 		display:flex;
+		width:100%;
 		@media screen and (max-width:540px){
 			flex-direction: column;
 		}
