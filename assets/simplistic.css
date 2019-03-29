@@ -439,4 +439,21 @@ main {
         padding-bottom: 10px;
         text-decoration: none; }
 
+.button {
+  display: flex;
+  padding: 12px 42px;
+  margin: 10px;
+  min-width: 80px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: black;
+  text-decoration: none;
+  font-size: calcem(15px);
+  border-radius: 2px;
+  transition-property: color,background-color;
+  transition: 1s ease-in-out; }
+  .button:hover {
+    background-color: lightgray;
+    color: white; }
+
 /*# sourceMappingURL=simplistic.css.map */
