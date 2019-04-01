@@ -263,12 +263,6 @@ li{
 	.left-nav,
 	.right-nav {
 		display: flex;
-//		width: 100%;
-
-		@media screen and (max-width: 540px) {
-			flex-direction: column;
-		}
-
 		justify-content: space-around;
 		align-items: center;
 
@@ -276,9 +270,6 @@ li{
 			flex-grow: 1;
 			display: flex;
 			justify-content: center;
-
-			
-
 			a {
 				width: 100%;
 				display: flex;
@@ -292,8 +283,7 @@ li{
 		@media screen and (max-width: 960px){
 			font-size: 8px;
 		}
-	
-			}
+				}
 		}
 	}
 	.left-nav {
@@ -305,18 +295,28 @@ li{
 	}
 
 	.right-nav {
-		
+		li{
+			@media screen and (max-width: 770px){
+			i{
+				color:white;
+				font-size:16px;
+				margin-right: 16px;
+			}
+			a{
+				display:none;
+			}
+		}
 	}
-	
+}
 }
 
 .button {
 	display: flex;
 	justify-content: center;
-	padding: 12px 42px;
+	padding: 12px 30px;
 	margin:10px;
 	min-width: 80px;
-	max-width: 90px;
+	max-width: 160px;
 	background-color: #FFFFFF;
 	border:1px solid #FFFFFF;
 	color:black;
@@ -333,11 +333,7 @@ li{
 }
 
 .jumbo{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-column: span 12;
 	height: 600px;
-	background-image: url("https://cdn.shopify.com/s/files/1/0613/6213/files/tier1_revision_bigger_1400x.progressive.jpg?v=1552690231");
 	position:relative;
 	margin-bottom: 20px;
 	}
@@ -382,6 +378,9 @@ li{
 	border-top: 1px solid black;
 }
 
+.j-image-1{
+	max-width: 1140px;
+}
 
 
 
