@@ -512,15 +512,15 @@ li {
   align-self: baseline; }
 
 .h-navbar {
-  min-height: 40px;
+  min-height: 60px;
   font-family: "Roboto Slab", serif; }
   .h-navbar nav {
     position: fixed;
     z-index: 10;
-    width: 100%; }
+    display: flex;
+    min-height: 60px; }
   .h-navbar ul {
     display: flex;
-    width: 100%;
     justify-content: space-around;
     align-items: center; }
     @media screen and (max-width: 540px) {
@@ -600,5 +600,10 @@ li {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid black; }
+
+.ridge-img {
+  position: relative;
+  right: 240px;
+  height: 40px; }
 
 /*# sourceMappingURL=simplistic.css.map */

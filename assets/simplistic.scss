@@ -212,14 +212,16 @@ li{
 
 
 .h-navbar {
-	min-height: 40px;
+	min-height: 60px;
 	font-family: $formal;
+	
 
 	nav {
 		position: fixed;
 		z-index: 10;
 		display: flex;
-	//	width: 100%;
+		min-height:60px;
+		//	width: 100%;
 	}
 
 	ul {
@@ -321,4 +323,11 @@ li{
 	padding-top:20px;
 	border-top: 1px solid black;
 }
+
+.ridge-img{
+	position:relative;
+	right:240px;
+	height:40px;
+}
+
 
