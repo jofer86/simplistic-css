@@ -519,6 +519,11 @@ li {
     z-index: 10;
     display: flex;
     min-height: 60px; }
+  .h-navbar .brand {
+    position: absolute;
+    right: 50%; }
+    .h-navbar .brand .ridge-img {
+      height: 40px; }
   .h-navbar ul {
     display: flex;
     justify-content: space-around;
@@ -600,10 +605,5 @@ li {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid black; }
-
-.ridge-img {
-  position: relative;
-  right: 240px;
-  height: 40px; }
 
 /*# sourceMappingURL=simplistic.css.map */
