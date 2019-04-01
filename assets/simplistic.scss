@@ -339,6 +339,7 @@ li{
 	position:relative;
 	margin-bottom: 3px;
 	}
+
 .jumbo-item-left {
 	display:flex;
 	flex-direction: column;
@@ -364,6 +365,31 @@ li{
 		color: black;
 	}
 }
+
+.jumbo-item-center-l,
+.jumbo-item-center-r {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	.text-j {
+		color: #363636;
+		font-size: 36px;
+	}
+}
+
+.jumbo-item-center-l{
+	position:absolute;
+	bottom:200px;
+	right:20px;
+}
+
+.jumbo-item-center-r {
+	position:absolute;
+	bottom:200px;
+	left:20px;
+}
+
+
 
 .j-image-1{
 	width:100%;
