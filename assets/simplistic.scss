@@ -87,7 +87,11 @@ main{
 .row {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-column: span 12;
+	&::after{
+		content: "";
+		display: block;
+		height: 5px;
+	}
 }
 
 @for $i from 1 to 10{
