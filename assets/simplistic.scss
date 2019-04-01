@@ -213,7 +213,10 @@ li{
 .h-navbar {
 	min-height: 60px;
 	font-family: $formal;
-	
+	@media screen and (max-width: 770px){
+		background-color: black;
+	}
+
 
 	nav {
 		position: fixed;
@@ -225,6 +228,15 @@ li{
 		}
 	}
 
+	.expand {
+		display: none;
+		@media screen and (max-width: 770px){
+			display: flex;
+			align-items: center;
+			color: white;
+		}
+	}
+
 	.brand {
 		display:flex;
 
@@ -233,10 +245,23 @@ li{
 			position:relative;
 			right:170px;
 			height:40px;
+			@media screen and (max-width: 770px){
+				display: none;
+			}
+		}
+		.alter-img {
+			display: none;
+			@media screen and (max-width: 770px){
+				display:flex;
+			position:relative;
+			right:50%;
+			height:25px;
+			}	
 		}
 	}
 
-	ul {
+	.left-nav,
+	.right-nav {
 		display: flex;
 //		width: 100%;
 
@@ -251,6 +276,8 @@ li{
 			flex-grow: 1;
 			display: flex;
 			justify-content: center;
+
+			
 
 			a {
 				width: 100%;
@@ -269,6 +296,18 @@ li{
 			}
 		}
 	}
+	.left-nav {
+		li {
+			@media screen and (max-width: 770px) {
+				display: none;
+			}
+		}
+	}
+
+	.right-nav {
+		
+	}
+	
 }
 
 .button {

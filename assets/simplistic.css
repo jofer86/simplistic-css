@@ -514,6 +514,9 @@ li {
 .h-navbar {
   min-height: 60px;
   font-family: "Roboto Slab", serif; }
+  @media screen and (max-width: 770px) {
+    .h-navbar {
+      background-color: black; } }
   .h-navbar nav {
     position: fixed;
     z-index: 10;
@@ -522,6 +525,13 @@ li {
     @media screen and (max-width: 960px) {
       .h-navbar nav {
         font-size: 8px; } }
+  .h-navbar .expand {
+    display: none; }
+    @media screen and (max-width: 770px) {
+      .h-navbar .expand {
+        display: flex;
+        align-items: center;
+        color: white; } }
   .h-navbar .brand {
     display: flex; }
     .h-navbar .brand .ridge-img {
@@ -529,18 +539,33 @@ li {
       position: relative;
       right: 170px;
       height: 40px; }
-  .h-navbar ul {
+      @media screen and (max-width: 770px) {
+        .h-navbar .brand .ridge-img {
+          display: none; } }
+    .h-navbar .brand .alter-img {
+      display: none; }
+      @media screen and (max-width: 770px) {
+        .h-navbar .brand .alter-img {
+          display: flex;
+          position: relative;
+          right: 50%;
+          height: 25px; } }
+  .h-navbar .left-nav,
+  .h-navbar .right-nav {
     display: flex;
     justify-content: space-around;
     align-items: center; }
     @media screen and (max-width: 540px) {
-      .h-navbar ul {
+      .h-navbar .left-nav,
+      .h-navbar .right-nav {
         flex-direction: column; } }
-    .h-navbar ul li {
+    .h-navbar .left-nav li,
+    .h-navbar .right-nav li {
       flex-grow: 1;
       display: flex;
       justify-content: center; }
-      .h-navbar ul li a {
+      .h-navbar .left-nav li a,
+      .h-navbar .right-nav li a {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -548,11 +573,16 @@ li {
         padding-bottom: 10px;
         text-decoration: none; }
         @media screen and (max-width: 1080px) {
-          .h-navbar ul li a {
+          .h-navbar .left-nav li a,
+          .h-navbar .right-nav li a {
             font-size: 12px; } }
         @media screen and (max-width: 960px) {
-          .h-navbar ul li a {
+          .h-navbar .left-nav li a,
+          .h-navbar .right-nav li a {
             font-size: 8px; } }
+  @media screen and (max-width: 770px) {
+    .h-navbar .left-nav li {
+      display: none; } }
 
 .button {
   display: flex;
