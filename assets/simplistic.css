@@ -519,10 +519,15 @@ li {
     z-index: 10;
     display: flex;
     min-height: 60px; }
+    @media screen and (max-width: 960px) {
+      .h-navbar nav {
+        font-size: 8px; } }
   .h-navbar .brand {
-    position: absolute;
-    right: 50%; }
+    display: flex; }
     .h-navbar .brand .ridge-img {
+      display: flex;
+      position: relative;
+      right: 170px;
       height: 40px; }
   .h-navbar ul {
     display: flex;
@@ -542,6 +547,12 @@ li {
         padding-top: 10px;
         padding-bottom: 10px;
         text-decoration: none; }
+        @media screen and (max-width: 1080px) {
+          .h-navbar ul li a {
+            font-size: 12px; } }
+        @media screen and (max-width: 960px) {
+          .h-navbar ul li a {
+            font-size: 8px; } }
 
 .button {
   display: flex;
