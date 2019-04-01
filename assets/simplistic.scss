@@ -258,13 +258,4 @@ main{
 	} 
 }
 
-.jumbo{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-column: span 12;
-	height: 600px;
-	background-image: url("https://cdn.shopify.com/s/files/1/0613/6213/files/tier1_revision_bigger_1400x.progressive.jpg?v=1552690231");
-	position:relative;
-	margin-bottom: 20px;
-}
 
