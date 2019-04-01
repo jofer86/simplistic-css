@@ -601,7 +601,7 @@ li {
   text-decoration: none;
   font-size: calcem(15px);
   border-radius: 2px;
-  transition-property: color,background-color;
+  transition-property: color, background-color;
   transition: .5s ease-in-out; }
   .button:hover {
     background-color: lightgray;
@@ -609,6 +609,11 @@ li {
 
 .jumbo {
   height: 600px;
+  position: relative;
+  margin-bottom: 3px; }
+
+.jumbo-2 {
+  height: 315px;
   position: relative;
   margin-bottom: 3px; }
 
@@ -646,17 +651,22 @@ li {
 
 .jumbo-item-center-l {
   position: absolute;
-  bottom: 200px;
+  bottom: 90px;
   right: 20px; }
 
 .jumbo-item-center-r {
   position: absolute;
-  bottom: 200px;
+  bottom: 90px;
   left: 20px; }
 
 .j-image-1 {
   width: 100%;
   height: 600px;
+  margin: 0 auto; }
+
+.j-image-2 {
+  width: 100%;
+  height: 310px;
   margin: 0 auto; }
 
 .text-j {
@@ -676,11 +686,14 @@ li {
   margin: 0 auto; }
   .footer .footer-item {
     width: 10%;
-    height: auto;
-    background-color: blue; }
+    height: auto; }
     @media screen and (min-width: 1500px) {
       .footer .footer-item {
         width: 205px; } }
+
+.footer-img {
+  height: 100px;
+  width: 100%; }
 
 .copyright {
   margin-top: 20px;
