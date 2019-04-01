@@ -349,6 +349,13 @@ table {
 main {
   font-family: 'Quattrocento', serif; }
 
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  text-align: center; }
+
 .container {
   max-width: 1140px;
   height: auto;
@@ -437,6 +444,9 @@ main {
 
 .col-12 {
   grid-column: span 12; }
+
+.w-100 {
+  width: 100%; }
 
 .flex {
   display: flex; }
@@ -553,7 +563,8 @@ main {
   grid-column: span 12;
   height: 600px;
   background-image: url("https://cdn.shopify.com/s/files/1/0613/6213/files/tier1_revision_bigger_1400x.progressive.jpg?v=1552690231");
-  position: relative; }
+  position: relative;
+  margin-bottom: 20px; }
 
 .jumbo-item-left {
   display: flex;
@@ -579,10 +590,15 @@ main {
   margin: 0 auto; }
   .footer .footer-item {
     width: 10%;
-    height: 80px;
+    height: auto;
     background-color: blue; }
     @media screen and (min-width: 1500px) {
       .footer .footer-item {
         width: 205px; } }
+
+.copyright {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid black; }
 
 /*# sourceMappingURL=simplistic.css.map */
