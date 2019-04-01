@@ -71,7 +71,7 @@ li{
 
 .container {
 
-	max-width: 1140px;
+	max-width: 1365px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -213,9 +213,7 @@ li{
 .h-navbar {
 	min-height: 60px;
 	font-family: $formal;
-	@media screen and (max-width: 770px){
-		background-color: black;
-	}
+	
 
 
 	nav {
@@ -226,6 +224,10 @@ li{
 		@media screen and (max-width: 960px){
 			font-size: 8px;
 		}
+		background-color: white;
+	@media screen and (max-width: 770px){
+		background-color: black;
+	}
 	}
 
 	.expand {
@@ -344,14 +346,30 @@ li{
 	position:absolute;
 	bottom:100px;
 	left:100px;
+	.text-j {
+		color: white;
+	}
 	}
 .jumbo-item-right {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
 	position:absolute;
-	bottom:100px;
+	bottom:300px;
 	right:100px;
+	.text-j {
+		color: black;
+	}
+}
+
+.j-image-1{
+	max-width: 1365;
+	
+}
+
+.text-j {
+	font-size: 50px;
+	font-weight: 900;
 }
 
 .footer {
@@ -378,9 +396,7 @@ li{
 	border-top: 1px solid black;
 }
 
-.j-image-1{
-	max-width: 1140px;
-}
+
 
 
 
