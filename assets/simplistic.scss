@@ -283,3 +283,21 @@ main{
 	bottom:100px;
 	right:100px;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1500px;
+	margin: 0 auto;
+
+	.footer-item {
+		width: 10%;
+		height: 80px;
+		background-color: blue;
+		@media screen and (min-width:1500px){
+			width: 205px;
+		}		
+	}	
+}
+
