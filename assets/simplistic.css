@@ -547,4 +547,28 @@ main {
     background-color: lightgray;
     color: white; }
 
+.jumbo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column: span 12;
+  height: 600px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0613/6213/files/tier1_revision_bigger_1400x.progressive.jpg?v=1552690231");
+  position: relative; }
+
+.jumbo-item-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  left: 100px; }
+
+.jumbo-item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  right: 100px; }
+
 /*# sourceMappingURL=simplistic.css.map */
