@@ -116,6 +116,7 @@ a {
 }
 
 
+
 //Flex Properties.
 .w-100 {
 	width: 100%;
@@ -354,6 +355,9 @@ a {
 	height: 315px;
 	position: relative;
 	margin-bottom: 3px;
+	@media screen and (max-width: 770px){
+		
+	}
 }
 
 .jumbo-item-left {
@@ -396,18 +400,30 @@ a {
 		color: #363636;
 		font-size: 36px;
 	}
+	@media screen and (max-width: 1060px) {
+		.text-j{
+			font-size: 22px;
+		}
+	}
+
 }
 
 .jumbo-item-center-l {
 	position: absolute;
 	bottom: 90px;
 	right: 20px;
+	@media screen and (max-width: 920px) {
+		right: 5px;
+	}
 }
 
 .jumbo-item-center-r {
 	position: absolute;
 	bottom: 90px;
 	left: 20px;
+	@media screen and (max-width: 920px) {
+		left: 5px;
+	}
 }
 
 
@@ -443,6 +459,7 @@ a {
 	align-items: center;
 	max-width: 1500px;
 	margin: 0 auto;
+	flex-wrap: wrap;
 
 
 	.footer-item {
@@ -472,4 +489,10 @@ a {
 	/* @media screen and (min-width:1500px) {
 		margin: 0 auto;
 	} */
+}
+
+.small{
+	@media screen and (max-width:720px){
+		grid-column: span 12;
+	}
 }
