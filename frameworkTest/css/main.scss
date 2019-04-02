@@ -79,8 +79,12 @@
 
 .footer-img{
 	height:100px;
-    width: 200px;
-    margin: 0 20%;
+    width: 100%;
+    @media screen and (max-width:768px){
+        margin: 0 auto;
+        width: 200px;
+    }
+    
 }
 
 .top-line{
