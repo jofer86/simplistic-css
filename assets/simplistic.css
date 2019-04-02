@@ -684,6 +684,9 @@ a {
   .footer .footer-item {
     width: 10%;
     height: auto; }
+    .footer .footer-item input {
+      height: 38px;
+      width: 163px; }
     @media screen and (min-width: 1500px) {
       .footer .footer-item {
         width: 205px; } }

@@ -7,4 +7,13 @@
   font-size: 24px;
   font-weight: 900; }
 
+.footer-item a{
+	color:gray;
+	transition-property: color;
+	transition: .2s ease-in-out;
+}
+
+.footer-item a:hover{
+	color:black;
+}
 /*# sourceMappingURL=main.css.map */

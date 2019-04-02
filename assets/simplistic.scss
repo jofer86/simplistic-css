@@ -448,7 +448,10 @@ a {
 	.footer-item {
 		width: 10%;
 		height: auto;
-		
+		input{
+			height:38px;
+			width:163px;
+		}
 
 		@media screen and (min-width: 1500px) {
 			width: 205px;
