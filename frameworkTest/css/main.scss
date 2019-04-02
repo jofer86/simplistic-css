@@ -27,7 +27,7 @@
 	}
 	.news{
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 	}
 
     
@@ -52,11 +52,12 @@
 
      @media screen and (max-width:768px){
 		 display: flex;
-		 justify-content: center;
+		// justify-content: center;
         h6,
         a {
-            text-align: center;
+         margin-left: 20%;   
         }
+        ul,
         li {
             display: none;
 		}
@@ -70,3 +71,8 @@
 }
 
 
+.footer-img{
+	height:100px;
+    width: 200px;
+    margin: 0 auto;
+}

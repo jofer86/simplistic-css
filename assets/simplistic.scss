@@ -500,7 +500,7 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	max-width: 1500px;
-	
+	margin: 0 auto;
 	flex-wrap: wrap;
 
 
@@ -517,25 +517,28 @@ a {
 		}
 
 		@media screen and (max-width:768px){
-			width: 50%;
+			width: 80%;
 			
 		}
 	}
 }
 
-.footer-img{
-	height:100px;
-	width: 100%;
-}
+
 
 .copyright {
 	margin-top: 20px;
 	padding-top: 20px;
 	border-top: 1px solid black;
-	@media screen and (max-width:768px){
+	
+	@media screen and (min-width:200px){
 		width: 60%;
 		text-align: center;
 		
+	}
+
+	@media screen and (min-width:768px){
+		width: 95%;
+		text-align: left;
 	}
 	
 	// margin:0 50px;
