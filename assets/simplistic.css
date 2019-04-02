@@ -698,6 +698,10 @@ a {
 .copyright {
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid black; }
+  border-top: 1px solid black;
+  margin: 0 50px;
+  /* @media screen and (min-width:1500px) {
+  	margin: 0 auto;
+  } */ }
 
 /*# sourceMappingURL=simplistic.css.map */
