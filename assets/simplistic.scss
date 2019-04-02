@@ -118,22 +118,22 @@ a {
 		}
 	}
 	.col-xs-#{$i} {
-		@media screen and (min-width:576px) {
+		@media screen and (max-width:576px) {
 			grid-column: span $i;	
 		}
 	}
 	.col-sm-#{$i} {
-		@media screen and (min-width:768px) {
+		@media screen and (max-width:768px) {
 			grid-column: span $i;	
 		}
 	}
 	.col-l-#{$i} {
-		@media screen and (min-width:992px) {
+		@media screen and (max-width:992px) {
 			grid-column: span $i;	
 		}
 	}
 	.col-xl-#{$i} {
-		@media screen and (min-width:992px) {
+		@media screen and (max-width:1200px) {
 			grid-column: span $i;	
 		}
 	}

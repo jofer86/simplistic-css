@@ -3,6 +3,10 @@
   color: gray;
   padding: 10px; }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; } }
+
 .footer-item h6 {
   font-size: 24px;
   font-weight: 900; }
