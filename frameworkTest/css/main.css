@@ -4,6 +4,10 @@
   padding: 10px; }
 
 @media screen and (max-width: 768px) {
+  .social-gone {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
   .footer {
     flex-direction: column; } }
 .footer .social-sm {
@@ -11,6 +15,9 @@
   @media screen and (max-width: 768px) {
     .footer .social-sm {
       display: inline-block; } }
+.footer .news {
+  flex-direction: column;
+  align-items: center; }
 
 .footer-item h6 {
   font-size: 24px;
@@ -24,7 +31,8 @@
   border-radius: 5px; }
 @media screen and (max-width: 768px) {
   .footer-item {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
     .footer-item h6,
     .footer-item a {
       text-align: center; }

@@ -390,7 +390,17 @@ a {
 	align-items: center;
 	position: absolute;
 	bottom: 100px;
-	left: 100px;
+	left: 50px;
+	@media screen and (max-width:768px){
+		left:0;
+		.text-j {
+			font-size: 25px;
+		}
+		.button{
+			font-size: 12px;
+			padding:10px 15px;
+		}
+	}
 
 	.text-j {
 		color: white;
@@ -408,7 +418,16 @@ a {
 	position: absolute;
 	bottom: 100px;
 	right: 50px;
-
+	@media screen and (max-width:768px){
+		right:0;
+		.text-j {
+			font-size: 25px;
+		}
+		.button{
+			font-size: 12px;
+			padding:10px 15px;
+		}
+	}
 	.text-j {
 		color: black;
 	}

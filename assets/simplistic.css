@@ -824,7 +824,15 @@ a {
   align-items: center;
   position: absolute;
   bottom: 100px;
-  left: 100px; }
+  left: 50px; }
+  @media screen and (max-width: 768px) {
+    .jumbo-item-left {
+      left: 0; }
+      .jumbo-item-left .text-j {
+        font-size: 25px; }
+      .jumbo-item-left .button {
+        font-size: 12px;
+        padding: 10px 15px; } }
   .jumbo-item-left .text-j {
     color: white; }
   .jumbo-item-left .text-j-s {
@@ -837,6 +845,14 @@ a {
   position: absolute;
   bottom: 100px;
   right: 50px; }
+  @media screen and (max-width: 768px) {
+    .jumbo-item-right {
+      right: 0; }
+      .jumbo-item-right .text-j {
+        font-size: 25px; }
+      .jumbo-item-right .button {
+        font-size: 12px;
+        padding: 10px 15px; } }
   .jumbo-item-right .text-j {
     color: black; }
 
