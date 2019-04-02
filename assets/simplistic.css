@@ -357,19 +357,22 @@ a {
   max-width: 1365px;
   height: auto;
   margin-left: auto;
-  margin-right: auto; }
-  @media screen and (max-width: 1200px) {
-    .container {
-      width: 100%; } }
-  @media screen and (max-width: 992px) {
-    .container {
-      width: 100%; } }
-  @media screen and (max-width: 768px) {
-    .container {
-      width: 100%; } }
-  @media screen and (max-width: 576px) {
-    .container {
-      width: 100%; } }
+  margin-right: auto;
+  	/* @media screen and (max-width: 1200px) {
+  		width: 100%;
+  	}
+  
+  	@media screen and (max-width:992px) {
+  		width: 100%;
+  	}
+  
+  	@media screen and (max-width:768px) {
+  		width: 100%;
+  	}
+  
+  	@media screen and (max-width:576px) {
+  		width: 100%;
+  	} */ }
 
 .row {
   display: grid;
@@ -714,12 +717,14 @@ a {
 
 .h-navbar {
   min-height: 60px;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Roboto Slab", serif;
+  width: 100%; }
   .h-navbar nav {
     position: fixed;
     z-index: 10;
     display: flex;
     min-height: 60px;
+    width: 100%;
     background-color: white; }
     @media screen and (max-width: 960px) {
       .h-navbar nav {
@@ -737,9 +742,8 @@ a {
   .h-navbar .brand {
     display: flex; }
     .h-navbar .brand .ridge-img {
-      display: flex;
       position: relative;
-      right: 170px;
+      right: 50%;
       height: 40px; }
       @media screen and (max-width: 770px) {
         .h-navbar .brand .ridge-img {
