@@ -6,6 +6,11 @@
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column; } }
+.footer .social-sm {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .footer .social-sm {
+      display: inline-block; } }
 
 .footer-item h6 {
   font-size: 24px;
@@ -17,5 +22,13 @@
   padding: 10px 5px;
   text-align: center;
   border-radius: 5px; }
+@media screen and (max-width: 768px) {
+  .footer-item {
+    display: flex; }
+    .footer-item h6,
+    .footer-item a {
+      text-align: center; }
+    .footer-item li {
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */

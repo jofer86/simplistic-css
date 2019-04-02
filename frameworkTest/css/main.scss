@@ -10,10 +10,15 @@
 .footer{
 	@media screen and (max-width:768px){
 		flex-direction: column;
-		.footer-img{
-			
-		}
-	}
+    }
+    .social-sm {
+        display: none;
+        @media screen and (max-width:768px){
+            display: inline-block;
+        }
+    }
+
+    
 }
 
 
@@ -31,4 +36,16 @@
         text-align: center;
         border-radius: 5px;
     }
+
+     @media screen and (max-width:768px){
+         display: flex;
+        h6,
+        a {
+            text-align: center;
+        }
+        li {
+            display: none;
+        }
+     } 
+
 }

@@ -905,6 +905,10 @@ a {
     @media screen and (min-width: 1500px) {
       .footer .footer-item {
         width: 205px; } }
+    @media screen and (max-width: 768px) {
+      .footer .footer-item {
+        width: 50%;
+        margin: 0 auto; } }
 
 .footer-img {
   height: 100px;
