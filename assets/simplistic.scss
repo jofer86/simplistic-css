@@ -500,7 +500,7 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	max-width: 1500px;
-	margin: 0 auto;
+	
 	flex-wrap: wrap;
 
 
@@ -518,7 +518,7 @@ a {
 
 		@media screen and (max-width:768px){
 			width: 50%;
-			margin: 0 auto;
+			
 		}
 	}
 }
@@ -532,7 +532,13 @@ a {
 	margin-top: 20px;
 	padding-top: 20px;
 	border-top: 1px solid black;
-	margin:0 50px;
+	@media screen and (max-width:768px){
+		width: 60%;
+		text-align: center;
+		
+	}
+	
+	// margin:0 50px;
 	/* @media screen and (min-width:1500px) {
 		margin: 0 auto;
 	} */

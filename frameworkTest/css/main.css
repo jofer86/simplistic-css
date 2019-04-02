@@ -20,7 +20,7 @@
   align-items: center; }
 
 .footer-item h6 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900; }
 .footer-item #sign-bt {
   margin: 10px 0 0 0;
@@ -38,5 +38,8 @@
       text-align: center; }
     .footer-item li {
       display: none; } }
+
+.mailer {
+  max-width: 100px; }
 
 /*# sourceMappingURL=main.css.map */
