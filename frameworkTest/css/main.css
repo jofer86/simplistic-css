@@ -1,4 +1,4 @@
-@import url(../../assets/simplistic.css);
+@import '../../assets/simplistic.css';
 .social-icons {
   width: 100%; }
   .social-icons i {
