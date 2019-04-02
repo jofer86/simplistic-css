@@ -358,16 +358,16 @@ a {
   height: auto;
   margin-left: auto;
   margin-right: auto; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1200px) {
     .container {
       width: 100%; } }
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 992px) {
     .container {
       width: 100%; } }
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 768px) {
     .container {
       width: 100%; } }
-  @media screen and (min-width: 539px) {
+  @media screen and (max-width: 576px) {
     .container {
       width: 100%; } }
 
@@ -406,41 +406,245 @@ a {
 .gutter-9 {
   grid-gap: 45px; }
 
-.col-1 {
-  grid-column: span 1; }
+@media screen and (min-width: 200px) {
+  .col-1 {
+    grid-column: span 1; } }
 
-.col-2 {
-  grid-column: span 2; }
+@media screen and (min-width: 576px) {
+  .col-xs-1 {
+    grid-column: span 1; } }
 
-.col-3 {
-  grid-column: span 3; }
+@media screen and (min-width: 768px) {
+  .col-sm-1 {
+    grid-column: span 1; } }
 
-.col-4 {
-  grid-column: span 4; }
+@media screen and (min-width: 992px) {
+  .col-l-1 {
+    grid-column: span 1; } }
 
-.col-5 {
-  grid-column: span 5; }
+@media screen and (min-width: 992px) {
+  .col-xl-1 {
+    grid-column: span 1; } }
 
-.col-6 {
-  grid-column: span 6; }
+@media screen and (min-width: 200px) {
+  .col-2 {
+    grid-column: span 2; } }
 
-.col-7 {
-  grid-column: span 7; }
+@media screen and (min-width: 576px) {
+  .col-xs-2 {
+    grid-column: span 2; } }
 
-.col-8 {
-  grid-column: span 8; }
+@media screen and (min-width: 768px) {
+  .col-sm-2 {
+    grid-column: span 2; } }
 
-.col-9 {
-  grid-column: span 9; }
+@media screen and (min-width: 992px) {
+  .col-l-2 {
+    grid-column: span 2; } }
 
-.col-10 {
-  grid-column: span 10; }
+@media screen and (min-width: 992px) {
+  .col-xl-2 {
+    grid-column: span 2; } }
 
-.col-11 {
-  grid-column: span 11; }
+@media screen and (min-width: 200px) {
+  .col-3 {
+    grid-column: span 3; } }
 
-.col-12 {
-  grid-column: span 12; }
+@media screen and (min-width: 576px) {
+  .col-xs-3 {
+    grid-column: span 3; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-3 {
+    grid-column: span 3; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-3 {
+    grid-column: span 3; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-3 {
+    grid-column: span 3; } }
+
+@media screen and (min-width: 200px) {
+  .col-4 {
+    grid-column: span 4; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-4 {
+    grid-column: span 4; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-4 {
+    grid-column: span 4; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-4 {
+    grid-column: span 4; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-4 {
+    grid-column: span 4; } }
+
+@media screen and (min-width: 200px) {
+  .col-5 {
+    grid-column: span 5; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-5 {
+    grid-column: span 5; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-5 {
+    grid-column: span 5; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-5 {
+    grid-column: span 5; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-5 {
+    grid-column: span 5; } }
+
+@media screen and (min-width: 200px) {
+  .col-6 {
+    grid-column: span 6; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-6 {
+    grid-column: span 6; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-6 {
+    grid-column: span 6; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-6 {
+    grid-column: span 6; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-6 {
+    grid-column: span 6; } }
+
+@media screen and (min-width: 200px) {
+  .col-7 {
+    grid-column: span 7; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-7 {
+    grid-column: span 7; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-7 {
+    grid-column: span 7; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-7 {
+    grid-column: span 7; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-7 {
+    grid-column: span 7; } }
+
+@media screen and (min-width: 200px) {
+  .col-8 {
+    grid-column: span 8; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-8 {
+    grid-column: span 8; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-8 {
+    grid-column: span 8; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-8 {
+    grid-column: span 8; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-8 {
+    grid-column: span 8; } }
+
+@media screen and (min-width: 200px) {
+  .col-9 {
+    grid-column: span 9; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-9 {
+    grid-column: span 9; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-9 {
+    grid-column: span 9; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-9 {
+    grid-column: span 9; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-9 {
+    grid-column: span 9; } }
+
+@media screen and (min-width: 200px) {
+  .col-10 {
+    grid-column: span 10; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-10 {
+    grid-column: span 10; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-10 {
+    grid-column: span 10; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-10 {
+    grid-column: span 10; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-10 {
+    grid-column: span 10; } }
+
+@media screen and (min-width: 200px) {
+  .col-11 {
+    grid-column: span 11; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-11 {
+    grid-column: span 11; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-11 {
+    grid-column: span 11; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-11 {
+    grid-column: span 11; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-11 {
+    grid-column: span 11; } }
+
+@media screen and (min-width: 200px) {
+  .col-12 {
+    grid-column: span 12; } }
+
+@media screen and (min-width: 576px) {
+  .col-xs-12 {
+    grid-column: span 12; } }
+
+@media screen and (min-width: 768px) {
+  .col-sm-12 {
+    grid-column: span 12; } }
+
+@media screen and (min-width: 992px) {
+  .col-l-12 {
+    grid-column: span 12; } }
+
+@media screen and (min-width: 992px) {
+  .col-xl-12 {
+    grid-column: span 12; } }
 
 .w-100 {
   width: 100%; }
@@ -715,8 +919,10 @@ a {
   	margin: 0 auto;
   } */ }
 
-@media screen and (max-width: 720px) {
-  .small {
-    grid-column: span 12; } }
+/* .small{
+	@media screen and (max-width:720px){
+		grid-column: span 12;
+	}
+} */
 
 /*# sourceMappingURL=simplistic.css.map */

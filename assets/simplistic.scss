@@ -73,19 +73,19 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: 1200px) {
 		width: 100%;
 	}
 
-	@media screen and (max-width:720px) {
+	@media screen and (max-width:992px) {
 		width: 100%;
 	}
 
-	@media screen and (max-width:540px) {
+	@media screen and (max-width:768px) {
 		width: 100%;
 	}
 
-	@media screen and (min-width:539px) {
+	@media screen and (max-width:576px) {
 		width: 100%;
 	}
 }
@@ -93,6 +93,7 @@ a {
 .row {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	
 
 	&::after {
 		content: "";
@@ -110,8 +111,31 @@ a {
 
 
 @for $i from 1 to 13 {
+	
 	.col-#{$i} {
-		grid-column: span $i;
+		@media screen and (min-width:200px) {
+			grid-column: span $i;	
+		}
+	}
+	.col-xs-#{$i} {
+		@media screen and (min-width:576px) {
+			grid-column: span $i;	
+		}
+	}
+	.col-sm-#{$i} {
+		@media screen and (min-width:768px) {
+			grid-column: span $i;	
+		}
+	}
+	.col-l-#{$i} {
+		@media screen and (min-width:992px) {
+			grid-column: span $i;	
+		}
+	}
+	.col-xl-#{$i} {
+		@media screen and (min-width:992px) {
+			grid-column: span $i;	
+		}
 	}
 }
 
@@ -491,8 +515,8 @@ a {
 	} */
 }
 
-.small{
+/* .small{
 	@media screen and (max-width:720px){
 		grid-column: span 12;
 	}
-}
+} */
