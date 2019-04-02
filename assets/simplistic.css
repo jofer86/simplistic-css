@@ -808,6 +808,9 @@ a {
   border-radius: 2px;
   transition-property: color, background-color;
   transition: .5s ease-in-out; }
+  @media screen and (max-width: 770px) {
+    .button {
+      max-width: 100%; } }
   .button:hover {
     background-color: lightgray;
     color: white; }
@@ -927,7 +930,7 @@ a {
         width: 205px; } }
     @media screen and (max-width: 768px) {
       .footer .footer-item {
-        width: 80%; } }
+        width: 60%; } }
 
 .copyright {
   margin-top: 20px;
@@ -938,7 +941,7 @@ a {
   } */ }
   @media screen and (min-width: 200px) {
     .copyright {
-      width: 60%;
+      width: 80%;
       text-align: center; } }
   @media screen and (min-width: 768px) {
     .copyright {

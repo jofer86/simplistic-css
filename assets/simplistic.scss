@@ -361,6 +361,9 @@ a {
 	border-radius: 2px;
 	transition-property: color, background-color;
 	transition: .5s ease-in-out;
+	@media screen and (max-width: 770px){
+		max-width: 100%;
+	}
 
 	&:hover {
 		background-color: lightgray;
@@ -517,7 +520,7 @@ a {
 		}
 
 		@media screen and (max-width:768px){
-			width: 80%;
+			width: 60%;
 			
 		}
 	}
@@ -531,7 +534,7 @@ a {
 	border-top: 1px solid black;
 	
 	@media screen and (min-width:200px){
-		width: 60%;
+		width: 80%;
 		text-align: center;
 		
 	}

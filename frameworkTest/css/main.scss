@@ -2,6 +2,7 @@
 
 
 .social-icons{
+	width:100%;
     i {
         color:gray;
         padding: 10px;
@@ -22,12 +23,20 @@
     .social-sm {
         display: none;
         @media screen and (max-width:768px){
-            display: inline-block;
+			display: flex;
+			justify-content: space-around;
         }
 	}
 	.news{
 		flex-direction: column;
 		align-items: flex-start;
+		.mailer,
+		#sign-bt{
+			//margin-left:20%;
+			width:100%;
+			max-width:100%;
+		}
+		
 	}
 
     
@@ -45,7 +54,7 @@
         margin: 10px 0 0 0;
         background-color: black;
         color:white;
-        padding: 10px 5px;
+        padding: 16px 5px;
         text-align: center;
         border-radius: 5px;
     }
@@ -53,10 +62,7 @@
      @media screen and (max-width:768px){
 		 display: flex;
 		// justify-content: center;
-        h6,
-        a {
-         margin-left: 20%;   
-        }
+      
         ul,
         li {
             display: none;
@@ -74,5 +80,12 @@
 .footer-img{
 	height:100px;
     width: 200px;
-    margin: 0 auto;
+    margin: 0 20%;
+}
+
+.top-line{
+	@media screen and (max-width:768px){
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
 }
