@@ -9,4 +9,4 @@ The framework was tested while designing a clone page of this website [an online
 
 * Ahmed Mahfoudh: [Ahmed](https://github.com/stratospherique)
 
-Demo live version: [link to the preview](https://htmlpreview.github.io/?https://github.com/jofer86/simplistic-css/blob/master/index.html)
+Demo live version: [link to the preview](https://jofer86.github.io/simplistic-css/)
